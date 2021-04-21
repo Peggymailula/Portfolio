@@ -1,15 +1,4 @@
-.button {
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    width: 20%;
-  }
+
   body{
       background-image: url("./pastel.jpg");
       background-position: center;
@@ -61,10 +50,36 @@ li{
     padding-left:25px ;
     padding-right: 25px;
   }
-  /*@media screen and (min-width: 800px) {
-      img {
-border-radius: 55%; 
+ /*for laptops*/
+  @media  (min-width: 800px) {
+    .button {
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+      width: 20%;
+    }
 
-} 
+  } 
+  /* for smaller phone */
+  @media (max-width: 800px) {
+    .button {
+      border: none;
+      color: white;
+      padding: 5px 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 8px;
+      margin: 4px 2px;
+      cursor: pointer;
+      width: 5%;
+    }
+    
 
-  } */
+  } 
