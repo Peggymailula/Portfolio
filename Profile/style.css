@@ -58,39 +58,69 @@ li{
     padding-left:25px ;
     padding-right: 25px;
   }
+  .button {
+    border:2px solid black;
+    border-radius: 5%;
+    color: white;
+    padding: 20px 35px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 20%; 
+    height: 50px; 
  /*for laptops*/
-  @media  (min-width: 800px) {
-    .button {
-      border:2px solid black;
-      border-radius: 5%;
-      color: white;
-      padding: 20px 35px;
-      text-align: center;
-      text-decoration: none;
-      display: inline-block;
-      font-size: 16px;
-      margin: 4px 2px;
-      cursor: pointer;
-      width: 20%; 
-      height: 50px; 
+  
+   
       
     }
 
-  } 
+  
   /* for smaller phone */
   @media (max-width: 800px) {
     .button {
       border: none;
       color: white;
-      padding: 5px 20px;
+      padding: 15px 20px;
       text-align: center;
       text-decoration: none;
       display: inline-block;
-      font-size: 8px;
+      font-size: 15px;
       margin: 4px 2px;
       cursor: pointer;
-      width: 5%;
+      width: 15%;
     }
-    
+    h1{
+      color: rgb(226, 64, 118);
+    margin-right: 30%;
+      
+  }
+  .img{
+    margin-left: 10%;
+    border-radius: 5%;
+    border:2px solid rgb(10, 4, 6) ;
+    border-radius: 50%;
+  
+  }
+  .button {
+    border:2px solid black;
+    border-radius: 5%;
+    color: white;
+    padding: 20px 35px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 20%; 
+    height: 85px; 
+ /*for laptops*/
+  
+   
+      
+    }
 
   } 
